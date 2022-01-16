@@ -20,11 +20,11 @@ def main():
         "wine": countries_top_wine,
         "alcohol": countries_top_alcohol,
     }
-
-    for key, country_list in top_countries.items():
+    for count, (key, country_list) in enumerate(top_countries.items(), start=1):
+        print("\n##################\n")
         print(f"Top 5 Countries which drink {key} the most:\n")
         for index, row in enumerate(country_list[:10]):
-            print(f"{index+1} | {row.country}")
+            print(f"{index+1} | {row.country} | {row[count]}")
 
 
 if __name__ == "__main__":
