@@ -4,6 +4,7 @@
     <list default="true" id="d6a4a9e7-ffbe-4bed-a088-d9b60e5b2d6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv_analysis/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_analysis/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_analysis/research.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_analysis/research.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +83,19 @@
       <option name="project" value="LOCAL" />
       <updated>1642366201484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add servings number in print">
+      <created>1642366973370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642366973370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="analysis complete:&#10;top countries which drink alcohol the most!" />
-    <option name="LAST_COMMIT_MESSAGE" value="analysis complete:&#10;top countries which drink alcohol the most!" />
+    <MESSAGE value="add servings number in print" />
+    <option name="LAST_COMMIT_MESSAGE" value="add servings number in print" />
   </component>
 </project>

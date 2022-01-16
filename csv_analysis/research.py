@@ -21,7 +21,6 @@ def read_csv():
 
     with open(file_name, "r") as f:
         csv_dict_list = csv.DictReader(f)
-
         return [parse_csv(row) for row in csv_dict_list]
 
 
