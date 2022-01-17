@@ -52,3 +52,9 @@ def top_wine(data):
 
 def top_alcohol(data):
     return sorted(data, key=lambda r: r.total_litres_of_pure_alcohol, reverse=True)
+
+def main():
+    print(read_csv())
+
+if __name__ == "__main__":
+    main()
